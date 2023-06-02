@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+
+}
+
+.page-top {
+    display: flex;
+    align-items: center;            /* alinhar verticalmente /*/
+    justify-content: left;        /* alinhar horizontalmente/*/
+    width: 100%;
+    height: 70px;
+    background-color: #201e1e;
+    gap: 50px;
+    position: fixed;
+}
+
+.page-top i{
+    color: #35e599;
+    font-size: 15px;
+}
+
+.page-top p {
+    margin-left: 45px;
+    margin-right: 455px;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.divisoria{
+    width: 100%;
+    height: 2px;
+    background-color: #35e599;
+}
+
+.botoes-top2{
+    border: solid;
+    font-family: monospace;
+    font-size: 14px;
+    border-color: #000000;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.8s ease;
+    color:black;
+}
+
+.botoes-top2:hover{
+    background-color: #35e599;
+}
+
+.main-pagina1{
+    margin-top: 80px;
+    display: inline-block;
+    margin: 0;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    gap: 275px;
+}
+
+.main-pagina1 h2{
+    font-family: monospace;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 150px;
+    border: 0px;
+    margin-left: 45px;
+}
+
+.main-pagina1 h3{
+    font-family: monospace;
+    font-size: 35px;
+    margin: 0px;
+    border:  0px;
+    margin-left: 45px;
+}
+
+.main-pagina1 p{
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0px;
+    border:  0px;
+    margin-left: 45px;
+}
+
+.imagem1{
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 280px;
+    height: 275px;
+}
+
+.imagem2{
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 45px;
+    width: auto;
+    height: 275px;
+}
+
+
+.sobre-mim-titulo{
+    font-family: monospace;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-card-sobre-mim{
+    gap: 30px;
+    font-family: monospace;
+    margin: 0%;
+    border: none;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-sobre-mim{
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 800px;
+    height: 350px;
+    background-color: #201e1e;
+    align-items: center;
+    margin: 0%;
+    padding: 10px;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 28px;
+    transition: 0.8s ease;
+}
+
+.card-sobre-mim:hover{
+    box-shadow: 5px 5px 10px #35e599;
+
+    
+}
+
+
+/*.detalhes-sobre-mim{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;       alinha horizontalmente
+    width: 100%;
+    height: 95%;
+    background-color: #ffffff;
+}
+ /*/
+
+.imagem-ale1{
+    margin-top: 5px ;
+    border-radius: 15px ;
+    width: 375px;
+    height: 375px;
+}
+
+
+
+.fatos{
+    font-size: 17px;
+    margin-top: 25px;
+    gap:15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulos{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: monospace;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.area-cards{
+    font-family: monospace;
+    margin: 0%;
+    border: none;
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 75px;
+}
+
+.card-projetos{
+    border: none;
+    border-radius: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10px;
+    width: 350px;
+    height: 475px;
+    background-color: #201e1e;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 10px;
+    text-align:start;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    line-height: 17px;
+    transition: ease 0.8s;
+}
+
+.card-projetos:hover{
+    box-shadow: 5px 5px 10px #35e599;
+
+}
+
+
+.imagem-projetos{
+
+    margin-top: 5px ;
+    border-radius: 15px ;
+    width: 100%;
+    height: 170px;
+}
+
+.rodape{
+    font: 65px;
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: #35e599;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.rodape i{
+    font-size: 30px;
+    color: white;
+}
